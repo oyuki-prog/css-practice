@@ -1,4 +1,7 @@
 @charset "UTF-8";
+body {
+  background-color: #ddd;
+}
 
 img {
   width: 100%;
@@ -12,15 +15,18 @@ img {
   margin: 0 auto;
 }
 
-.wrapper {
+/*=================
+これより下を変更
+=================*/
 
+.wrapper {
+margin-top: 100px;
 }
 
 .left {
-
+background-color: #fff;
 }
 
 .right {
 
 }
-
